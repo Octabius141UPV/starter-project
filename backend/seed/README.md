@@ -1,6 +1,6 @@
 # Community demo seed
 
-This directory contains twelve original, clearly labelled demonstration articles for the
+This directory contains two original, clearly labelled demonstration articles for the
 Case Study Symmetry Community feed. The articles are fictional and their images are
 illustrative; they must not be presented as real reporting.
 
@@ -32,8 +32,11 @@ can create Auth users, write the named Firestore database `articles`, and upload
 `symmetry-demo-editorial` Auth user without a password, uploads deterministic Storage
 objects, and creates deterministic `articles/{id}` documents.
 
-Apply mode is idempotent: it never deletes or updates existing article documents. An
-existing document is skipped only when its owner UID and payload hash match the manifest;
+Apply mode is idempotent: it never deletes or updates existing article documents.
+The compact manifest seeds two representative articles and does not delete previously
+seeded demo articles that are no longer listed.
+
+An existing document is skipped only when its owner UID and payload hash match the manifest;
 a conflict stops the run. Storage objects are reused only when their payload hash and
 MIME type match.
 

@@ -27,7 +27,7 @@ for project_args in "" "--project=case-study-symmetry"; do
   output=$(node "$SCRIPT" $project_args 2>/dev/null)
   node - "$output" <<'NODE'
 const summary = JSON.parse(process.argv[2]);
-if (summary.mode !== 'dry-run' || summary.project !== 'case-study-symmetry' || summary.count !== 12) {
+if (summary.mode !== 'dry-run' || summary.project !== 'case-study-symmetry' || summary.count !== 2) {
   throw new Error('Unexpected dry-run summary');
 }
 NODE

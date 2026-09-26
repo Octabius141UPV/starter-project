@@ -11,7 +11,7 @@
 | Web release build | Passed; output `frontend/build/web` |
 | Backend install | `npm ci` passes with tracked `backend/package-lock.json` |
 | Backend security validation | **8 grouped suites passed** |
-| DEMO seed | 12 article manifests pass dry-run/CLI checks; no writes by default |
+| DEMO seed | 2 representative article manifests pass dry-run/CLI checks; no writes by default |
 | Live Firebase | Firestore rules, `publishedAt DESC` index, and Storage rules match local definitions |
 | Hosting | Disabled at the applicant’s request; the original assignment does not require public Hosting. Both Firebase Hosting domains returned HTTP 404 after disablement. The local `firebase.hosting.json` remains optional configuration. |
 | Android | Unverified; no Android SDK/Android Studio (`flutter build apk --debug` reports `No Android SDK found`) |
@@ -102,7 +102,7 @@ The current source/default web build contains no NewsAPI credential. The public 
 | `backend/docs/DB_SCHEMA.md` | Article, likes, comments, Storage, and failure contract | Schema source for review |
 | `backend/package.json` | Pinned test/runtime dependencies and `npm test` script | Tracked delivery config |
 | `backend/package-lock.json` | Reproducible npm dependency graph | Tracked and synchronized |
-| `backend/seed/seed-community.mjs` | 12 DEMO article validation/apply tool | Dry-run default; apply explicit |
+| `backend/seed/seed-community.mjs` | 2 representative DEMO article validation/apply tool | Dry-run default; apply explicit; never deletes omitted articles |
 | `backend/seed/manifest.json` | Deterministic seed metadata and hashes | Synthetic content only |
 | `backend/seed/test-cli.sh` | CLI safety/dry-run assertions | No Firebase writes |
 | `backend/tests/security.test.js` | Eight grouped Firestore/Storage/Auth security scenarios | Emulator-only execution |
@@ -128,11 +128,10 @@ The current source/default web build contains no NewsAPI credential. The public 
 | `docs/IMPLEMENTATION_GUIDE.md` | Architecture, flow, contracts, limitations, and reviewer navigation |
 | `docs/CHANGE_INVENTORY.md` | This inventory |
 | `docs/proof/README.md` | MIME/dimensions/status/checksums for visual proof |
-| `docs/proof/*.jpg` | 18 JPEG still-image artifacts, including Figma, historical browser, responsive, and production snapshots |
-| `docs/proof/browser-walkthrough-sampled-frames.mp4` | Eight-frame sampled walkthrough, not a continuous recording |
+| `docs/proof/*.jpg` | 3 JPEG Figma visual references |
 | `docs/proof/two-browser-live-demo.mp4` | Applicant's continuous two-browser mobile-viewport demonstration; local emulators only |
 
-The original `.png` filenames in `docs/proof/` were renamed to `.jpg` because `file` reports JPEG bytes. All Markdown references and checksums use the corrected `.jpg` names.
+The proof directory intentionally keeps only the three Figma JPEG references and the continuous two-browser recording. Historical browser and production snapshots are excluded from the delivery evidence set.
 
 ## Validation recipes
 

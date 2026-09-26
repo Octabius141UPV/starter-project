@@ -43,7 +43,7 @@ Rules cannot inspect object bytes or prove that a Firestore document and Storage
 
 ## Seed validation
 
-The default seed command is a local validation-only dry-run. It describes **12 DEMO articles**, validates dimensions, ratios, sizes, signatures, lengths, and hashes, and performs no Firebase writes:
+The default seed command is a local validation-only dry-run. It describes **2 representative DEMO articles**, validates dimensions, ratios, sizes, signatures, lengths, and hashes, and performs no Firebase writes:
 
 ```bash
 node seed/seed-community.mjs
@@ -56,7 +56,7 @@ Applying the seed is intentionally separate and requires explicit authorization 
 node seed/seed-community.mjs --apply --project case-study-symmetry
 ```
 
-Do not run `--apply` as part of ordinary tests or documentation verification.
+Do not run `--apply` as part of ordinary tests or documentation verification. The compact manifest does not delete previously seeded articles that are no longer listed.
 
 ## Rules, indexes, and live verification
 

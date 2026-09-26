@@ -1,6 +1,6 @@
 # Case Study Symmetry — Technical Report
 
-> **Evidence scope.** This report describes the current worktree and separates current implementation evidence from historical browser captures. It does not claim an Android or iOS build that was not verified or expose credentials. Firebase Hosting was disabled at the applicant's request; no live web demo is claimed. The current web output is `frontend/build/web`.
+> **Evidence scope.** This report describes the current worktree and separates current implementation evidence from explicit delivery limitations. It does not claim an Android or iOS build that was not verified or expose credentials. Firebase Hosting was disabled at the applicant's request; no live web demo is claimed. The current web output is `frontend/build/web`.
 
 ## 1. Introduction
 
@@ -67,7 +67,7 @@ The next improvements should be prioritized as follows:
 
 ## 5. Proof of the Project
 
-The evidence manifest is [`proof/README.md`](proof/README.md). It records MIME types, dimensions, checksums, and evidence status for every still image and the video.
+The evidence manifest is [`proof/README.md`](proof/README.md). It records MIME types, dimensions, checksums, and evidence status for the three retained visual references and the continuous video.
 
 ### Visual references
 
@@ -77,19 +77,10 @@ The evidence manifest is [`proof/README.md`](proof/README.md). It records MIME t
 
 These are current visual reference captures. They are not a substitute for the automated validation or the live social smoke.
 
-### Historical browser captures
-
-The numbered frames in [`proof/README.md`](proof/README.md) document an earlier acceptance pass: public feed, authentication gate, required image validation, publish, detail, reload persistence, and NewsAPI bookmark persistence. They are labeled historical because they predate the current navigation/social changes.
-
-### Historical production snapshots
-
-The `production-*.jpg` and `persisted-article-*.jpg` files are retained snapshots from a previous production validation pass. Firebase Hosting is now disabled; these captures and the earlier public deep-link check are historical evidence, not proof of a current live demo.
-
 ### Video
 
 [`proof/two-browser-live-demo.mp4`](proof/two-browser-live-demo.mp4) is the applicant's 75-second continuous screen recording, showing two independent mobile-viewport Brave windows against local Firebase emulators. It demonstrates the image/crop controls and the eventual convergence of live like and comment counts in both article details. It is not a native mobile recording or a public web deployment.
 
-[`proof/browser-walkthrough-sampled-frames.mp4`](proof/browser-walkthrough-sampled-frames.mp4) is a 16-second, eight-frame walkthrough generated from genuine numbered screenshots. It is a **sampled-frame walkthrough**, not a continuous recording.
 
 ### Current validation snapshot
 
@@ -100,7 +91,7 @@ The `production-*.jpg` and `persisted-article-*.jpg` files are retained snapshot
 | Web release build | Passed; output is `frontend/build/web` |
 | Backend install | Clean tracked-lockfile install with `npm ci` |
 | Backend rules validation | **8 grouped suites passed** |
-| Seed validation | 12 DEMO article manifests pass dry-run and CLI checks; no writes by default |
+| Seed validation | 2 representative DEMO article manifests pass dry-run and CLI checks; no writes by default |
 | Live Firebase state | Deployed Firestore rules, `publishedAt DESC` index, and Storage rules match local definitions for `case-study-symmetry` |
 | Share/deep-link behavior | Native/platform share path and browser fallback are implemented and covered by focused tests |
 | Hosting | Disabled at the applicant’s request; the original assignment does not require public Hosting. Both Firebase Hosting domains returned HTTP 404 after disablement. The local `firebase.hosting.json` remains optional configuration. |
@@ -122,7 +113,7 @@ The `production-*.jpg` and `persisted-article-*.jpg` files are retained snapshot
 9. **Production/emulator separation** — production rules reject loopback URLs; the emulator overlay is local-only.
 10. **Web bookmark persistence** — the original NewsAPI bookmark behavior has a web-compatible local data source without changing the native Floor contract.
 11. **Honest NewsAPI failure mode** — no credential is present in current source/default builds; the no-key web build opens Community and Latest remains unavailable by design. Any old exposed key requires owner rotation, and the Developer plan is not a hosted-production license.
-12. **Runnable DEMO seed and backend proof** — 12 clearly labeled synthetic articles, deterministic payload checks, and eight grouped security-rule suites.
+12. **Runnable DEMO seed and backend proof** — 2 representative, clearly labeled synthetic articles, deterministic payload checks, and eight grouped security-rule suites.
 
 ### 6.2 Prototypes Created
 

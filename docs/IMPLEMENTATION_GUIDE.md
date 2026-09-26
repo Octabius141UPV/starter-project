@@ -60,14 +60,14 @@ The dependency direction is inward: presentation depends on domain contracts, wh
 │   ├── storage.rules                 thumbnail security contract
 │   ├── firestore.indexes.json        publishedAt feed index
 │   ├── docs/DB_SCHEMA.md             Firestore/Storage/social schema
-│   ├── seed/                         12 DEMO article dry-run/apply tooling
+│   ├── seed/                         2 representative DEMO article dry-run/apply tooling
 │   └── tests/                        emulator security suites and local overlay
 ├── firebase.hosting.json             root Hosting target and Flutter SPA rewrite
 └── docs/
     ├── REPORT.md                     evidence-based report
     ├── CHANGE_INVENTORY.md           changed-file review map
     ├── IMPLEMENTATION_GUIDE.md       this architecture guide
-    └── proof/                         images, sampled walkthrough, checksums
+    └── proof/                         Figma references, continuous demo video, checksums
 ```
 
 ## 4. Startup, Firebase, DI, and routing
@@ -194,7 +194,7 @@ The current reference validation is:
 - Latest targeted Community/default-key tests: **13 passed**, plus the configured-key test; the full-suite result is **124 passed, 5 skipped**.
 - `flutter build web --release`: passed; output `frontend/build/web`.
 - Backend: tracked lockfile `npm ci` passes; `npm test` passes **8 grouped security suites**.
-- Seed: 12 DEMO articles pass the dry-run and CLI checks without writing by default.
+- Seed: 2 representative DEMO articles pass the dry-run and CLI checks without writing by default; apply mode is idempotent and does not delete omitted articles.
 - Live Firebase: Firestore rules, the `publishedAt DESC` index, and Storage rules match the local definitions.
 - Hosting: disabled at the applicant’s request; both Firebase Hosting domains returned HTTP 404. The root-level `firebase.hosting.json` is optional configuration, not a delivery requirement.
 - Android: unverified because `flutter build apk --debug` stops at `No Android SDK found`.

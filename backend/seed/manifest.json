@@ -6,69 +6,9 @@
     "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nA shared growing space can give a neighbourhood a practical way to meet, learn, and care for a small patch of land. Raised beds, simple composting, and a rotating watering plan make the idea approachable for people with different schedules and experience levels.\n\nThe imagined project also shows how a local story can focus on participation rather than a headline. Residents could document what they plant, share lessons, and invite others to suggest improvements. All details in this article are fictional."
   },
   {
-    "id": "symmetry-demo-electric-bus",
-    "image": "electric-bus.png",
-    "title": "DEMO — A quieter route inspires a conversation about clean transport",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nA modern electric bus can become more than a vehicle in a neighbourhood story. It can open a conversation about accessible stops, comfortable journeys, and how streets might feel when public transport is designed around people.\n\nThis imagined report uses a single route as a prompt for community feedback. Readers might compare the experience of walking, cycling, and taking the bus, then share ideas for better connections. No real route, timetable, operator, or launch is described here; every detail is fictional."
-  },
-  {
     "id": "symmetry-demo-community-library",
     "image": "community-library.png",
     "title": "DEMO — A library evening makes room for local learning",
     "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nLibraries can support many forms of connection beyond lending books. A welcoming evening programme might pair quiet reading with practical workshops, conversation tables, and a place for neighbours to recommend a title to one another.\n\nThe fictional idea in this article is intentionally modest: offer a dependable room, make the schedule easy to understand, and let residents shape the next session. It is a demonstration of community storytelling, not a report of a real library programme or public announcement."
-  },
-  {
-    "id": "symmetry-demo-rooftop-solar",
-    "image": "rooftop-solar.png",
-    "title": "DEMO — Rooftops become a starting point for energy literacy",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nSolar panels on a shared roof can prompt useful questions about energy, maintenance, shade, and the everyday decisions that affect consumption. A local workshop could make those questions easier to explore without assuming that every building has the same options.\n\nThis fictional story focuses on explaining a possible process: understand the roof, compare scenarios, and invite residents to review the assumptions. It does not announce a real installation, saving, supplier, or public commitment."
-  },
-  {
-    "id": "symmetry-demo-community-mural",
-    "image": "community-mural.png",
-    "title": "DEMO — A shared mural gives a wall a new local vocabulary",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nA mural can turn a blank surface into a visible record of the ideas people want to carry through a neighbourhood. Sketching sessions, colour tests, and short conversations can help a project include different ages, styles, and ways of taking part.\n\nThe mural described here is entirely imagined. Its purpose is to show how a community article can celebrate a creative process while being honest about its status. No artist, location, permission, funding, or completed artwork should be inferred from this demonstration."
-  },
-  {
-    "id": "symmetry-demo-water-lab",
-    "image": "water-lab.png",
-    "title": "DEMO — A small water lab makes environmental questions tangible",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nHands-on learning can make environmental topics less abstract. A proposed neighbourhood lab might invite people to observe samples, ask what a test can and cannot show, and learn why careful notes matter when discussing water quality.\n\nThis article is a fictional educational scenario, not a health or environmental notice. It contains no real measurements, findings, recommendations, or claims about a particular lake, river, laboratory, or public authority."
-  },
-  {
-    "id": "symmetry-demo-makerspace-robotics",
-    "image": "makerspace-robotics.png",
-    "title": "DEMO — A makerspace robot turns curiosity into teamwork",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nBuilding a small robot can make collaboration visible. One person may sketch the mechanism, another may test a sensor, and someone else may explain the result to a first-time maker. The shared work matters as much as the finished machine.\n\nThe makerspace and robot in this story are fictional. They are included to demonstrate an encouraging community update, not to describe a real workshop, competition, product, school, company, or technical achievement."
-  },
-  {
-    "id": "symmetry-demo-farmers-market",
-    "image": "farmers-market.png",
-    "title": "DEMO — A market stall becomes a lesson in seasonal food",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nA local market can help people connect the food on a table with the work behind it. Conversations about seasonality, storage, recipes, and reducing waste can be as valuable as the purchase itself.\n\nThis imagined market is a storytelling exercise. It does not identify real vendors, growers, prices, opening hours, certifications, or claims about local supply. Readers should treat every detail as fictional demonstration content."
-  },
-  {
-    "id": "symmetry-demo-accessible-park",
-    "image": "accessible-park.png",
-    "title": "DEMO — Designing a park around more ways to participate",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nA welcoming park can offer more than a single route through a green space. Smooth paths, shade, quiet areas, play equipment, and clear wayfinding can help more people decide how they want to spend time outdoors.\n\nThe park described in this article is fictional. It is not a proposal, inspection, accessibility certification, or announcement about a real site. The example simply shows how a community publication can frame design around different experiences."
-  },
-  {
-    "id": "symmetry-demo-community-orchestra",
-    "image": "community-orchestra.png",
-    "title": "DEMO — An orchestra rehearsal shows the value of listening",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nAn ensemble depends on people listening closely to one another. A community orchestra can make that principle approachable by welcoming different levels of experience, sharing rehearsal goals, and celebrating progress rather than perfection.\n\nThe rehearsal and musicians in this article are fictional. No performance, conductor, venue, membership list, or cultural organisation is being reported. The story is a demonstration of how creative participation can be described with warmth and clear boundaries."
-  },
-  {
-    "id": "symmetry-demo-classroom-solar",
-    "image": "classroom-solar.png",
-    "title": "DEMO — A classroom model makes renewable energy easier to discuss",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nA small solar-powered model can turn a broad question into an observable experiment. Learners can follow the wires, compare light levels, and discuss what the model explains well and what it leaves out.\n\nThe classroom, students, model, and learning activity described here are fictional. This is not a school announcement, a curriculum claim, or a measured result; it is a safe demonstration article for the Community feed."
-  },
-  {
-    "id": "symmetry-demo-protected-bike-lane",
-    "image": "protected-bike-lane.png",
-    "title": "DEMO — A protected bike lane opens a discussion about street design",
-    "content": "[DEMO] This is a fictional community article created for the Case Study Symmetry demonstration. The scene and image are illustrative and do not report a real event.\n\nStreet design affects how confident people feel when they walk, cycle, use mobility aids, or cross a road. A protected lane can therefore be a useful starting point for conversations about access, crossings, trees, deliveries, and the rhythm of a neighbourhood.\n\nThis fictional article does not describe a real construction project, traffic change, safety outcome, or transport authority. It shows how a community post can invite thoughtful discussion without presenting invented facts as news."
   }
 ]

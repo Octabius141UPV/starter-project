@@ -128,8 +128,8 @@ function parsePngDimensions(bytes) {
 async function readManifest() {
   const source = await readFile(MANIFEST_PATH, 'utf8');
   const manifest = JSON.parse(source);
-  if (!Array.isArray(manifest) || manifest.length !== 12) {
-    throw new Error('manifest must contain exactly 12 articles');
+  if (!Array.isArray(manifest) || manifest.length !== 2) {
+    throw new Error('manifest must contain exactly 2 articles');
   }
   return manifest;
 }
